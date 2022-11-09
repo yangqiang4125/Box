@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="color_FFB800">#FF6600</color>
-    <color name="color_FF0057">#7113B9</color>
-    <color name="color_FF0057_80">#CC7113B9</color>
-    <color name="color_FF0057_70">#B37113B9</color>
-    <color name="color_FF0057_40">#667113B9</color>
+    <color name="color_FF0057">#0A3A21</color>
+    <color name="color_FF0057_80">#CC0A3A21</color>
+    <color name="color_FF0057_70">#B30A3A21</color>
+    <color name="color_FF0057_40">#660A3A21</color>
 
     <!-- Main Dialog Button BG -->
     <color name="color_6C0025_70">#B36C0025</color>

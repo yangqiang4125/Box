@@ -145,7 +145,9 @@ public class HomeActivity extends BaseActivity {
         this.tvName = findViewById(R.id.tvName);
         this.tvWifi = findViewById(R.id.tvWifi);
         this.tvFind = findViewById(R.id.tvFind);
+        this.tvSearch = findViewById(R.id.tvSearch);
         this.tvMenu = findViewById(R.id.tvMenu);
+        this.tvSetting = findViewById(R.id.tvSetting);
         this.tvDate = findViewById(R.id.tvDate);
         this.contentLayout = findViewById(R.id.contentLayout);
         this.mGridView = findViewById(R.id.mGridView);
@@ -229,8 +231,20 @@ public class HomeActivity extends BaseActivity {
                 jumpActivity(SearchActivity.class);
             }
         });
+        tvSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                jumpActivity(SearchActivity.class);
+            }
+        });
         // Button : Settings >> To go into Settings --------------------
         tvMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                jumpActivity(SettingActivity.class);
+            }
+        });
+        tvSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 jumpActivity(SettingActivity.class);
@@ -327,8 +341,8 @@ public class HomeActivity extends BaseActivity {
                         mHandler.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                if (!useCacheConfig)
-                                    Toast.makeText(HomeActivity.this, getString(R.string.hm_ok), Toast.LENGTH_SHORT).show();
+                                /*if (!useCacheConfig)
+                                    Toast.makeText(HomeActivity.this, getString(R.string.hm_ok), Toast.LENGTH_SHORT).show();*/
                                 initData();
                             }
                         }, 50);
