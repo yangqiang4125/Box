@@ -84,6 +84,8 @@ public class HomeActivity extends BaseActivity {
     private ImageView tvWifi;
     private ImageView tvFind;
     private ImageView tvMenu;
+    private ImageView tvSearch;
+    private ImageView tvSetting;
     private TextView tvDate;
     private TvRecyclerView mGridView;
     private NoScrollViewPager mViewPager;
