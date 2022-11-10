@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QQ视频</string>
+    <string name="app_name">QQYS</string>
     <string name="app_home">Home</string>
-    <string name="app_source"></string>
+    <string name="app_source">http://test.xinjun58.com/qq/api/q2.json</string>
 
     // Home Page //
     <string name="hm_ok">Load Complete</string>
